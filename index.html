@@ -3,249 +3,286 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-
     <title>Uzma Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="text-1704657317988.png" alt="Your Signature">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certification">Certification</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-   <!--Home Page-->
-   <section class="hero-section" id="home">
-    <img src="photo.jpg" alt="Your Image">
-    <h1 style="color: rgb(255, 0, 98);">Hello I'm Uzma Tasneem</h1>
-    <h1 class="textofimage" style="color: white;">Recent Graduate, passionate about making a digital impact.</h1>
-    <a href="Resume__Uzma Tasneem_2.pdf" target="_blank" rel="noopener noreferrer" class="resume-link">Download Resume</a>
     
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <a class="navbar-brand" href="home">
+            <img src="C:\Users\Hp\Downloads\text-1704657317988.png" alt="Your Signature" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#home" style="color: #fff;">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#about" style="color: #fff;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#skills" style="color: #fff;">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#projects" style="color: #fff;">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#certification" style="color: #fff;">Certification</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-custom" href="#contact" style="color: #fff;">Say Hi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+<!-- Home Page -->
+<section class="hero-section" id="home" style="padding: 50px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="image-container">
+                    <img src="C:\Users\Hp\Downloads\photo.jpg" class="img-fluid rounded-circle" alt="Your Image" style="width: 50%; height: auto; border: 8px solid #fff;">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center text-lg-left">
+                    <h1 style="color: rgb(255, 0, 98);font-size: 50px;">Hello I'm Uzma Tasneem</h1>
+                    <p style="color: rgb(255, 255, 255);font-size: 14px;">(Computer Science Student)</hp>
 
-    <div class="scroll-down">
+                    <h1 class="textofimage" style="color: white;">Recent Graduate, passionate about making a digital impact in real world.</h1>
+                    <a href="C:\Users\Hp\Downloads\3last resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-link" style="display: inline-block; padding: 8px 20px; background-color: rgb(255, 0, 98); color: #fff; text-decoration: none; border-radius: 5px; margin-top: 30px; transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-down text-center" style="margin-top: 90px;font-size: 50px;">
         <a href="#about" class="scroll-text">Scroll For More</a>
         <div class="scroll-icon">&#8595;</div> <!-- Unicode arrow icon -->
     </div>
+    
 </section>
 
-
-  <!--About Section and Education Section-->
-  <section id="about" class="about-section">
+<!-- About Section -->
+<section id="about" class="about-section" style="padding: 50px 0;background-color: #fff;margin-top: 90px;">
     <div class="container">
-        <h1 style="text-align: center; color: #333;">About Me</h1>
-        <hr>
-
-            <div class="text-content" style="flex: 2; padding: 10px 10px;">
-               
-                <p style="font-size: 20px; line-height: 2;text-align: center;">
-                    Hi there! I recently graduated with a degree in Computer Applications. I'm passionate about applying my skills to  solve complex problems. Throughout my academic journey, I've had the opportunity to work on diverse projects, honing my skills in programming and web development. Now, as I enter the tech industry, I'm enthusiastic about continuous learning and growth. My expertise lies in web development technologies such as HTML, CSS, and JavaScript. Additionally, I've gained experience with frameworks like Django and databases like MySQL. I find great joy in unraveling complex problems and finding elegant solutions. I thrive on challenges and possess a strong desire to expand my knowledge base. I'm excited about the prospect of leveraging my skills to contribute meaningfully in the tech realm.
-                                           </p>
-                
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="text-align: center; color: #000000; margin-bottom: 20px;font-weight: bold;">About Me</h1>
+                <hr style="border-color: #333;">
             </div>
-                <a href="mailto:utasneem125@gmail.com?subject=Hiring Inquiry&body=Dear [Your Name],%0D%0A%0D%0AI came across your portfolio and was impressed by your skills and experience. I am interested in discussing potential job opportunities with you.%0D%0A%0D%0ACould you please let me know your availability for a call?%0D%0A%0D%0AThank you,%0D%0A[Your Name]" class="hireme">Hire Me
-                </a>
-            
-
+            <div class="col-md-12">
+                <div class="text-content" style="padding: 10px;">
+                    <p style="font-size: 20px; line-height: 2; text-align: center;">Hi there! I recently graduated with a degree in Computer Applications. I'm passionate about applying my skills to solve complex problems. Throughout my academic journey, I've had the opportunity to work on diverse projects, honing my skills in programming and web development. Now, as I enter the tech industry, I'm enthusiastic about continuous learning and growth. My expertise lies in web development technologies such as HTML, CSS, and JavaScript. Additionally, I've gained experience with frameworks like Django and databases like MySQL. I find great joy in unraveling complex problems and finding elegant solutions. I thrive on challenges and possess a strong desire to expand my knowledge base. I'm excited about the prospect of leveraging my skills to contribute meaningfully in the tech realm.</p>
+                </div>
+            </div>
+            <div class="col-md-12 text-center" style="margin-top: 20px;">
+                <a href="mailto:utasneem125@gmail.com?subject=Hiring Inquiry&body=Dear [Your Name],%0D%0A%0D%0AI came across your portfolio and was impressed by your skills and experience. I am interested in discussing potential job opportunities with you.%0D%0A%0D%0ACould you please let me know your availability for a call?%0D%0A%0D%0AThank you,%0D%0A[Your Name]" class="hireme" style="display: inline-block; padding: 8px 20px; background-color: rgb(255, 0, 98); color: #fff; text-decoration: none; border-radius: 5px; transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">Hire Me</a>
+            </div>
+        </div>
     </div>
-
-
-  
 </section>
-
-<!--Education Section-->
-<section id="education" class="education-section">
+<!-- Education Section -->
+<section id="education" class="education-section" style="padding: 50px 0;background-color: white;">
     <div class="container">
-        <h2 style="text-align: center; color: #333; margin-top: 0%;">Education</h2> <hr>
+        <h2 style="text-align: center; color: #000000; margin-top: 0%;font-weight: bold;">Education</h2>
+        <hr style="border-color: #333;">
         <div class="education-content">
             <div class="education-item">
-                <div class="timeline__icon timeline__icon--education">
-                    <img src="icon_education.png" alt="Education Icon">
+                <div class="timeline__icon timeline__icon--education" style="text-align: center;">
+                    <img src="C:\Users\Hp\OneDrive\Microsoft\OneDrive\Desktop\Portfolio\icon_education.png" alt="Education Icon" style="max-width: 100px;">
                 </div>
                 <div class="education-details">
-                    <p style="font-family: 'Roboto','sans-serif';"> July 2021 - May 2024</p>
-                     <h2 style="font-family: 'Frank Ruhl Libre',serif;">Dr. Vishwanath Karad MIT World Peace University, Pune Maharashtra</h2>
+                    <p style="font-family: 'Roboto','sans-serif';">July 2021 - May 2024</p>
+                    <h2 style="font-family: 'Frank Ruhl Libre', serif;color: crimson;">Dr. Vishwanath Karad MIT World Peace University, Pune Maharashtra</h2>
                     <h3 style="font-family: 'Roboto','sans-serif';">BCA (Computer Science)</h3>
                     <p style="font-family: 'Roboto','sans-serif';">Consistently maintained a CGPA above 9.0 throughout all semesters.</p>
-                </div><hr>
+                </div>
+                <hr style="border-color: #333;">
                 <div class="education-details">
-                    <p style="font-family: 'Roboto','sans-serif';"> June 2020 - April 2021</p>
-                     <h2 style="font-family: 'Frank Ruhl Libre',serif;">Frommans Memorial Higher Secondary School, MP</h2>
-                    <h3 style="font-family: 'Roboto','sans-serif';">Higher Secondry School, 12th</h3>
-                    <p style="font-family: 'Roboto','sans-serif';">Secured 86% in PCM
-                    </p>
-                </div><hr>
+                    <p style="font-family: 'Roboto','sans-serif';">June 2020 - April 2021</p>
+                    <h2 style="font-family: 'Frank Ruhl Libre', serif;color: crimson;">Frommans Memorial Higher Secondary School, MP</h2>
+                    <h3 style="font-family: 'Roboto','sans-serif';">Higher Secondary School, 12th</h3>
+                    <p style="font-family: 'Roboto','sans-serif';">Secured 86% in PCM</p>
+                </div>
+                <hr style="border-color: #333;">
                 <div class="education-details">
-                    <p style="font-family: 'Roboto','sans-serif';"> July 2018 - April 2019</p>
-                     <h2 style="font-family: 'Frank Ruhl Libre',serif;">Frommans Memorial Higher Secondary School, MP</h2>
-                    <h3 style="font-family: 'Roboto','sans-serif';">Senior Secondry School, 10th</h3>
-                    <p style="font-family: 'Roboto','sans-serif';">Secured 85.4% in Science
-                    </p>
-                </div><hr>
+                    <p style="font-family: 'Roboto','sans-serif';">July 2018 - April 2019</p>
+                    <h2 style="font-family: 'Frank Ruhl Libre', serif;color:crimson">Frommans Memorial Higher Secondary School, MP</h2>
+                    <h3 style="font-family: 'Roboto','sans-serif';">Senior Secondary School, 10th</h3>
+                    <p style="font-family: 'Roboto','sans-serif';">Secured 85.4% in Science</p>
+                </div>
+                <hr style="border-color: #333;">
             </div>
         </div>
     </div>
 </section>
-
-
-
-
 <!-- Skills Section -->
-<section id="skills" class="skills-section">
-        <div class="container">
-            <div class="image-container">
-                <div class="overlay-text">
-                    <h1 style="text-align: center; color: white;">Skills</h1><hr>
-                    <div class="skills-content">
-                        <div class="technical-skills">
-                            <h1 style="font-size: 40px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">01.</h1>
-                            <h3>Technical Skills</h3>
-                            <ul>
-                                <li>Java, Python, C</li>
-                                <li>HTML5, CSS3, JavaScript</li>
-                                <li>Angular, Django</li>
-                                <li>Manual Testing</li>
-                                <li>Power BI</li>
-                                <li>GitHub</li>
+<section id="skills" class="skills-section" style="padding: 50px 0;">
+    <div class="container">
+        <h1 style="color: white; text-align: center;font-weight: bold;">Skills</h1>
 
-                                <!-- Add more technical skills as needed -->
-                            </ul>
-                        </div>
-                        <div class="soft-skills">
-                            <h1 style="font-size: 40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">02.</h1>
-                            <h3>Soft Skills</h3>
-                            <ul>
-                                <li>Communication</li>
-                                <li>Teamwork</li>
-                                <li>Problem-solving</li>
-                                <li>Time Management</li>
-                                <li>Adaptability</li>
-                                <li>Attention To Detail</li>
-                                <!-- Add more soft skills as needed -->
-                            </ul>
-                        </div>
+        <hr style="border-color: #333;">
+
+        <div class="image-container" style="display: flex; justify-content: center;">
+            <div class="overlay-text" style="max-width: 670px; text-align: center;">
+                <div class="skills-content" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                    <div class="technical-skills" style="width: calc(50% - 10px); margin-right: 20px;">
+                        <h1 style="font-size: 40px;color: #fff; display: inline-block;">01.</h1>
+                        <h3 style="color: crimson; display: inline-block; margin-left: 0px;font-family: 'Frank Ruhl Libre';">Technical Skills</h3>
+                        <ul style="list-style-type: none;font-family: 'Frank Ruhl Libre'; padding: 0; color: #fff;font-size: 20px;text-align: left;line-height: 40px;">
+                            <li>&#8226; Java, Python, C</li>
+                            <li>&#8226; HTML5, CSS3, JS</li>
+                            <li>&#8226; Angular, Django</li>
+                            <li>&#8226; Manual Testing</li>
+                            <li>&#8226; Power BI</li>
+                            <li>&#8226; GitHub</li>
+                            <li>&#8226; Data Mining</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="soft-skills" style="width: calc(50% - 10px);">
+                        <h1 style="font-size: 40px;color: rgb(255, 255, 255);">02.</h1>
+                        <h3 style="color: crimson;font-family: 'Frank Ruhl Libre';">Soft Skills</h3>
+                        <ul style="list-style-type: none;font-family: 'Frank Ruhl Libre';margin-left: 20px; padding: 0; color: #fff;font-size: 20px;text-align: left;line-height:40px;">
+                            <li>&#8226; Communication</li>
+                            <li>&#8226; Teamwork</li>
+                            <li>&#8226; Problem-solving</li>
+                            <li>&#8226; Time Management</li>
+                            <li>&#8226; Adaptability</li>
+                            <li>&#8226; Attention To Detail</li>
+                            <li>&#8226; Documentation</li>
+
+                            
+                        </ul>
                     </div>
                 </div>
-            </div> </div>
-        
-    </section>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Projects Section -->
-<section id="projects" class="projects-section">
-    <h1 style="text-align: center; color:#333;">Project</h1>
-    <hr style="color: #333;">
-
+<section id="projects" class="projects-section" style="padding: 50px 0; background-color: #fff;">
     <div class="container">
-        <h1 style="text-align: center; color: #ffffff;">Projects</h1>
-        <div class="project">
-            <img src="movie.jpg" alt="Project 1 Image">
-            <div class="project-details">
-                <h2>Movie Genre Classification</h2>
-                <p>Developed a machine learning model for movie genre classification using various ML models. Utilized a dataset of movie plot summaries and text analysis to accurately categorize movies into their respective genres.</p>
-                <a href="https://github.com/iUzmaa/Movie_Genre_Classification" target="_blank">View Project</a>
+        <h1 style="text-align: center; color: #000000;font-weight: bold;">Projects</h1>
+        <hr style="border-color: #000000;">
+        <div class="project" style="display: flex; flex-wrap: wrap; justify-content: left;">
+            <div class="project-item" style="margin: 20px;">
+                <div class="project-details" style="text-align: center;text-align: left;">
+                    <h2 style="color: crimson;font-family: 'Frank Ruhl Libre'">Movie Genre Classification</h2>
+                    <p style="font-size: 18px;"> Developed a machine learning model for movie genre classification using various ML models. Utilized a dataset of movie plot summaries and text analysis to accurately categorize movies into their respective genres.</p>
+                    <a href="https://github.com/iUzmaa/Movie_Genre_Classification" target="_blank">View Project</a>
+                </div>
             </div>
-        </div>
-        <div class="project">
-            <img src="email.jpg" alt="Email Spam Prediction">
-            <div class="project-details">
-                <h2>Email Spam Prediction</h2>
-                <p>Designed and implemented an email spam detection system using machine learning and natural language processing techniques. The project involved data preprocessing, feature extraction, and the training of a classification model to identify spam emails.</p>
-                <a href="https://github.com/iUzmaa/Email_Spam_Detection">View Project</a>
+            <div class="project-item" style="margin: 20px;">
+                <div class="project-details" style="text-align: left;">
+                    <h2 style="color: crimson;font-family: 'Frank Ruhl Libre'">Email Spam Prediction</h2>
+                    <p style="font-size: 18px;">Designed and implemented an email spam detection system using machine learning and natural language processing techniques. The project involved data preprocessing, feature extraction, and the training of a classification model to identify spam emails.</p>
+                    <a href="https://github.com/iUzmaa/Email_Spam_Detection" target="_blank">View Project</a>
+                </div>
             </div>
-        </div>
-        <div class="project">
-            <img src="customer.jpg" alt=" Customer Churn Prediction">
-            <div class="project-details">
-                <h2> Customer Churn Prediction</h2>
-                <p>Built a Customer Churn Prediction project using machine learning techniques to forecast customer attrition and improve retention efforts.</p>
-                <a href="https://github.com/iUzmaa/Customer_Churn_Prediction">View Project</a>
+            <div class="project-item" style="margin: 20px;">
+                <div class="project-details" style="text-align: left;">
+                    <h2 style="color: crimson;font-family: 'Frank Ruhl Libre'">Customer Churn Prediction</h2>
+                    <p style="font-size: 18px;">Built a Customer Churn Prediction project using machine learning techniques to forecast customer attrition and improve retention efforts.</p>
+                    <a href="https://github.com/iUzmaa/Customer_Churn_Prediction" target="_blank">View Project</a>
+                </div>
             </div>
-        </div>
-        
-    </div> 
-</section>
-<!-- Certifications Section -->
-<section id="certification" class="certifications-section">
-    <h1 style="text-align: center; color:#ffffff;">Certifications</h1>
-    <hr style="color: #ffffff;">
 
-    <div class="container">
-        <div class="certification">
-            <div class="certification-details">
-                <h2>Responsive Web Design</h2>
-                <p>Certified as  responsive web designer with 300+ working hours at freeCodeCamp.</p>
-                <a href="https://www.freecodecamp.org/certification/fcc99667b80-7747-48d4-8057-a36731a92a79/responsive-web-design" target="_blank">View Certification</a>
-            </div>
         </div>
-        <div class="certification">
-            <div class="certification-details">
-                <h2>Cognizant - Agile Methodology Job Simulation</h2>
-                <p>Learned about Agile Methodology and its steps in each development process to build user-friendly software apps.</p>
-                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/ZZswQd6xGydd758vz_Cognizant_Z4FJCMzEEjjeLbtsp_1693684779840_completion_certificate.pdf" target="_blank">View Certification</a>
-            </div>
-        </div>
-        <div class="certification">
-            <div class="certification-details">
-                <h2>Accenture North America Data Analytics and Visualization Completion</h2>
-                <p>Analyzed seven datasets, deriving insights into content trends for a social media client in a simulation.</p>
-                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_Z4FJCMzEEjjeLbtsp_1687205389878_completion_certificate.pdf" target="_blank">View Certification</a>
-            </div>
-        </div>
-        <!-- Add more certifications as needed -->
     </div>
 </section>
 
+<!-- Certifications Section -->
+<section id="certification" class="certifications-section" style="padding: 50px 0; background-color: #000000;">
+    <div class="container">
+        <h1 style="text-align: center; color: #ffffff;font-weight: bold;">Certifications</h1>
+        <hr style="border-color: #333;">
+        <div class="certification" style="display: flex; flex-wrap: wrap; justify-content: left;">
+            <div class="certification-item" style="margin: 20px;">
+                <div class="certification-details" style="text-align: center;color: white;text-align: left;">
+                    <h2 style="color:  crimson;font-family: 'Frank Ruhl Libre'">Responsive Web Design</h2>
+                    <p style="font-size: 18px;">Certified as a responsive web designer with 300+ working hours at freeCodeCamp.</p>
+                    <a href="https://www.freecodecamp.org/certification/fcc99667b80-7747-48d4-8057-a36731a92a79/responsive-web-design" target="_blank" style="display: inline-block; padding: 8px 20px; background-color:crimson; color: #fff; text-decoration: none; border-radius: 5px; transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">View Certification</a>
+                </div>
+            </div>
+           
+            <div class="certification-item" style="margin: 20px;">
+                <div class="certification-details" style="text-align: center;color: white;text-align: left;">
+                    <h2 style="color:  crimson;font-family: 'Frank Ruhl Libre'">Cognizant - Agile Methodology Job Simulation</h2>
+                    <p style="font-size: 18px;">Learned about Agile Methodology and its steps in each development process to build user-friendly software apps.</p>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/ZZswQd6xGydd758vz_Cognizant_Z4FJCMzEEjjeLbtsp_1693684779840_completion_certificate.pdf" target="_blank" style="display: inline-block; padding: 8px 20px; background-color:crimson; color: #fff; text-decoration: none; border-radius: 5px; transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">View Certification</a>
+                </div>
+            </div>
+            <div class="certification-item" style="margin: 20px;">
+                <div class="certification-details" style="text-align: center;color: white;text-align: left;">
+                    <h2 style="color:  crimson;font-family: 'Frank Ruhl Libre'">Accenture North America Data Analytics and Visualization Completion</h2>
+                    <p style="font-size: 18px;">Analyzed seven datasets, deriving insights into content trends for a social media client in a simulation.</p>
+                    <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_Z4FJCMzEEjjeLbtsp_1687205389878_completion_certificate.pdf" target="_blank" style="display: inline-block; padding: 8px 20px; background-color:crimson; color: #fff; text-decoration: none; border-radius: 5px; transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">View Certification</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="contact" >
-    
-    <div id="contact" style="background-color: white; padding: 20px; margin-top: 5px;">
-        <h1 style="text-align: center; color:#000000; font-size: 34px;">Get In Touch</h1>
-    <hr style="color: #333;">
+<!-- Contact Section -->
+<section class="contact" style="padding: 50px 0; background-color: #fff;">
+    <div id="contact" style="max-width: 1200px; margin: 0 auto; text-align: center;">
+        <h1 style="color: #000000; font-size: 34px;">Get In Touch</h1>
+        <hr style="border-color: #000000;">
         <div style="max-width: 400px; margin: 0 auto;">
-            <h3 style="font-size: 25px; text-align: center;font-family:Arial, Helvetica, sans-serif; ">I'm happy to connect, listen and help. Let's work together and build something awesome.</h3>
-            <p style="font-size: 16px; text-align: center;">Email: <a href="mailto:utasneem125@gmail.com" style="color: #333;">utasneem125@gmail.com</a></p>
-            <!-- You can add more contact information or a form here -->
-            <h2 style="text-align: center;font-size: 16px;">Social Links </h2>
-            <div class="social-icons">
+            <h3 style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;">I'm happy to connect, listen, and help. Let's work together and build something awesome.</h3>
+            <p style="font-size: 16px;"><a href="mailto:utasneem125@gmail.com" style="color: #333;">Email: utasneem125@gmail.com</a></p>
+            <h2 style="font-size: 16px; color:crimson;">Social Links</h2>
+            <div class="social-icons" style="display: flex; justify-content: center;">
                 <a href="https://github.com/iUzmaa" target="_blank" rel="noopener noreferrer">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 30px; margin: 5px;">
                 </a>
                 <a href="https://www.linkedin.com/in/uzma-tasneem/" target="_blank" rel="noopener noreferrer">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 30px; margin: 5px;">
                 </a>
                 <a href="https://www.instagram.com/_mashuqa_?igsh=eWt2am1wdm5qcHc1" target="_blank" rel="noopener noreferrer">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png" alt="LinkedIn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png" alt="Instagram" style="width: 30px; margin: 5px;">
                 </a>
             </div>
         </div>
     </div>
 </section>
-<footer>
-    <p style="font-size: 10px; color: #ffffff; margin-left: 20px;" >&copy; Uzma | Designed by Uzma</p>
-</footer>
-</body>
-<script>
-    // Smooth scrolling function
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
 
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+<footer style="background-color: #000000; text-align: center;margin-top: 10px;">
+    <p style="font-size: 10px; color: #ffffff;">&copy; Uzma | Designed by Uzma</p>
+</footer>
+    
+
+    <!-- Bootstrap JS files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling function
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
             });
         });
-    });
-    
-</script>
+    </script>
+</body>
 </html>
